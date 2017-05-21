@@ -13,3 +13,8 @@ body {
 .container {
   background-color: white;
 }
+
+.headerImg {
+    max-width: 100%;
+    height: auto;
+}
