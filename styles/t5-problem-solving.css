@@ -1,0 +1,62 @@
+.myself {
+  background-color: darkBlue;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.techniques {
+  background-color: #B0E0E6;
+  position: relative;
+  padding: 40px;
+  top: 20px;
+  left: 200px;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.map {
+  background-color: #D8BFD8;
+  padding: 30px 40px 20px 30px;
+  text-align: center;
+  width: 100%;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-transform: lowercase;
+  float: right;
+}
+
+.filter {
+  background-color: #DDA0DD;
+  padding: 30px 40px 20px 30px;
+  text-align: center;
+  width: 100%;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-transform: lowercase;
+  float: left;
+}
+
+.reduce {
+  background-color: #E6E6FA;
+  padding: 30px 40px 20px 30px;
+  text-align: center;
+  width: 100%;
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-transform: lowercase;
+  float: right;
+}
+
+.home {
+  padding: 30px 40px 20px 30px;
+}
