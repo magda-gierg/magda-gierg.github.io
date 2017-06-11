@@ -1,20 +1,78 @@
 body {
-  padding-top: 2rem;
+  font-family: "Raleway", sans-serif;
+  }
 
+a {
+  text-decoration: none;
 }
 
-.highlight {
-  font-style: italic;
-  padding: 2rem;
-  background-color: #ccc;
-  border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
+.subpages {
+  background-image: url(../image/background1.jpg);
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
 }
-.container {
+
+.subpage-title {
+  margin-bottom: .5rem;
+  color:	black;
+}
+
+.subpage-heading {
+  margin-bottom: .3rem;
+}
+
+.subpage-link {
+  text-decoration: none;
+}
+
+.subpage-title:hover {
+  color: #ce5a57;
+}
+
+.section {
+    padding: 12rem 0 12rem;
+}
+
+.button.button-primary {
+    color:  white;
+    background-color: #5F9EA0;
+    border-color: #5F9EA0;
+  }
+
+.button button-primary_2 {
+  color:  black;
   background-color: white;
+  border-color: white;
 }
 
-.headerImg {
-    max-width: 100%;
-    height: auto;
+h6 {
+  padding-bottom: 5rem;
+}
+
+/*--------------------------*/
+
+.indexBlogImg {
+    /*max-width: 380px;
+    min-width: 100px;*/
+    width:380px;
+    height: 240px;
+    padding: 0;
+    margin: 2rem 0 0 ;
+}
+
+.menu {
+    /*max-width: 380px;
+    min-width: 100px;*/
+      margin: 2rem 0 2rem ;
+    }
+.menu a {
+    color: #5F9EA0;
+}
+
+ .header {
+  color: #5F9EA0;
+}
+.back_to_top {
+  padding: 40px 0px;
 }
