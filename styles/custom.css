@@ -76,3 +76,7 @@ h6 {
 .back_to_top {
   padding: 40px 0px;
 }
+
+a.button button-primary {
+  padding-top: 40px;
+}
