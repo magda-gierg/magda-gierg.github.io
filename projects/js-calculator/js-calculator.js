@@ -60,10 +60,4 @@ $(document).ready(function(){
 
   });
 
-    // $(".num_button").click(function () {
-    // if ((total + ($(this).text()).length > 5)) {
-    //   $("#result").text(total);
-    //       total = total.replace(/.$/,$(this).text());
-    //       $("#result").text(total);
-    //     }
-    // };
+  
