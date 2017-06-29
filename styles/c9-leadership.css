@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 8% 0 8%;
+  padding: 0 8% 0 1%;
 }
 
 .square {
@@ -17,9 +17,17 @@
 }
 
 svg {
-  width: 100%;
+  width: 30%;
+  float: left;
+  height: 1200px;
 }
 
+#touchThesquer {
+  position: relative;
+    text-align: right;
+    margin-left: 2rem;
+    color:#EC96A4;
+}
 body {
   text-align: center;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -33,6 +41,7 @@ header {
 h1 {
   color: #5D535E;
   font-variant: small-caps;
+  padding-top: 70px;
 
 }
 h2 {
@@ -46,6 +55,8 @@ h3 {
   font-family: 'Shadows Into Light', cursive;
   font-weight: 300;
 }
+
+
 
 
 @media (min-width: 400px) {}

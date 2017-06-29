@@ -7,10 +7,10 @@ function gridData() {
 	var click = 0;
 
 
-	for (var row = 0; row < 29; row++) {
+	for (var row = 0; row < 90; row++) {
 		data.push( new Array() );
 
-		for (var column = 0; column < 170; column++) {
+		for (var column = 0; column < 45; column++) {
 			data[row].push({
 				x: xpos,
 				y: ypos,

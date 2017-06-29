@@ -1,83 +1,166 @@
 body {
-  font-family: "Raleway", sans-serif;
-  }
-
+  font-size: 16px;
+  letter-spacing: .05em;
+  color: #222222;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+h1, h3{
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h4 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 28px;
+}
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
-
-.subpages {
-
-  background-image: url(../image/background1.jpg);
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
+.centered {
+  text-align: center;
+  padding-top: 150px;
 }
-
-.subpage-title {
-  margin-bottom: .5rem;
-  color:	black;
-}
-
-.subpage-heading {
-  margin-bottom: .3rem;
-}
-
-.subpage-link {
-  text-decoration: none;
-}
-
-.subpage-title:hover {
-  color: #ce5a57;
-}
-
-.section {
-    padding: 12rem 0 12rem;
-}
-
-.button.button-primary {
-    color:  white;
-    background-color: #5F9EA0;
-    border-color: #5F9EA0;
+.vertical-centered {
+    position: absolute;
+    top: 50%;
+    width: 100%;
   }
-
-.button button-primary_2 {
-  color:  black;
-  background-color: white;
-  border-color: white;
+section {
+  text-align: center;
+  padding: 40px 0;
 }
-
-h6 {
-  padding-bottom: 5rem;
-}
-
-/*--------------------------*/
-
-.indexBlogImg {
-    /*max-width: 380px;
-    min-width: 100px;*/
-    width:380px;
-    height: 240px;
-    padding: 0;
-    margin: 2rem 0 0 ;
-}
-
-.menu {
-    /*max-width: 380px;
-    min-width: 100px;*/
-      margin: 2rem 0 2rem ;
-    }
-.menu a {
-    color: #5F9EA0;
-}
-
- .header {
-  color: #5F9EA0;
-}
-.back_to_top {
-  padding: 40px 0px;
-}
-
-a.button button-primary {
+section.introduction {
   padding-top: 40px;
+  padding-bottom: 10px;
 }
+.footer {
+  background-color: #222222;
+  color: white;
+}
+
+/* =Navigation
+-------- */
+.navigation .menu-icon {
+  color: white;
+  font-size: 70px;
+  line-height: 1em;
+text-decoration: none;
+  position: absolute;
+  left: 100%;
+  padding: 20px;
+}
+.navigation .menu-icon.active {
+  background-color: rgba(0,0,0, .3);
+}
+.navigation .menu-icon:hover {
+  color: #222;
+  background-color: transparent;
+}
+.navigation.active {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.navigation {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  height: 100%;
+  z-index: 3;
+  width: 320px;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.navigation ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  background: #222;
+}
+.navigation ul li {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li a {
+  display: block;
+  height: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+.navigation ul li a.current,
+.navigation ul li a:hover {
+  color: #222;
+  background-color: white;
+}
+
+/* =Hero
+-------- */
+
+.hero {
+  padding: 0;
+  min-height: 500px;
+  text-align: center;
+  position: relative;
+  background-color: #d56d4d;
+  color: white;
+  height: 500px !important;
+}
+.hero-image {
+  background: url("../image/hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: .1;
+  height: 500px !important;
+}
+.hero h2 {
+  font-size: 24px;
+}
+.hero p {
+  padding: 0 15%;
+}
+.hero .separator:before {
+  background-color: white;
+}
+
+#portfolio_header {
+  padding-top: 100px;
+  color: #d56d4d;
+}
+.homeLink img {
+  width: 30px;
+}
+/*img:hover {
+  width: 50px;
+}*/
+.homeLink img:hover {
+  width: 50px;
+}
+
+
+
+.homeLink {
+   display: inline-block;
+   margin-top: 5%;
+   text-align: center;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+/*@media (min-width: 750px) {}
+@media (min-width: 1000px) {}
+@media (min-width: 1200px) {}*/
