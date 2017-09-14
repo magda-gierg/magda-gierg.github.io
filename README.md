@@ -1,1 +1,1 @@
-# magda-gierg.github.io
+Magda's blog https://magda-gierg.github.io/

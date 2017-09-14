@@ -1,25 +1,15 @@
 $(document).ready(function(){
-
-  // =Hero
-  // Alway make hero-container height equal to window height
-
   var $heroContainer = $('.hero');
-
   $heroContainer.height(window.innerHeight);
-
-  // When user resize browser window, hero container needs to have the same
-  // height as browser window height.
 
   $(window).resize(function() {
     $heroContainer.height(window.innerHeight);
   });
-
-  // Menu initialization
-
+  
   var $menuIcon = $('.menu-icon'),
-      $navigation = $('.navigation'),
-      $mainNavigation = $('.main-navigation'),
-      $navigationLink = $('.main-navigation a');
+  $navigation = $('.navigation'),
+  $mainNavigation = $('.main-navigation'),
+  $navigationLink = $('.main-navigation a');
 
   $(window).scroll(function() {
     if(window.scrollY > window.outerHeight) {
@@ -36,15 +26,15 @@ $(document).ready(function(){
   });
 
   $mainNavigation.singlePageNav({
-      filter: ':not(.external)',
-      speed: 1000,
-      currentClass: 'current',
-      easing: 'swing',
-      updateHash: false,
-      beforeStart: function() {
-      },
-      onComplete: function() {
-        $navigation.removeClass('active');
-      }
+    filter: ':not(.external)',
+    speed: 1000,
+    currentClass: 'current',
+    easing: 'swing',
+    updateHash: false,
+    beforeStart: function() {
+    },
+    onComplete: function() {
+      $navigation.removeClass('active');
+    }
   });
 });
